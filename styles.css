@@ -1,0 +1,68 @@
+
+body {
+    background-image: url("https://wallpaper.dog/large/10812307.jpg");
+}
+.btn {
+    top: 45px;
+    right: 20px;
+}
+.btn :hover{
+    background-color: rgb(153, 234, 245);
+    color: black;
+}
+button {
+    color: black;
+    font-size: 20px;
+    height: 70px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#data {
+    width: 99%;
+    height: 500px;
+    margin: 105px, 105px;
+    justify-content: center;
+    display: flex;
+    margin-right: 500px;
+
+}
+
+.table {
+    width: 200px;
+    column-count: 3;
+    column-gap: 400px;
+    margin-right: 900px;
+    margin-top: 20px;
+    row-gap: 20px;
+    
+}
+
+table {
+    animation: backwards;
+    color: black;
+    font-size: 25px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+tr{
+    display: grid;
+    background-color: bisque;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: ridge;
+}
+span{
+    display: block;
+}
